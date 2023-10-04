@@ -9,7 +9,7 @@ const config: GatsbyConfig = {
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-cara/gatsby-config.mjs
     siteTitle: `Cara`,
-    siteTitleAlt: `Cara - Gatsby Starter Portfolio`,
+    siteTitleAlt: `Don Doricent Portfolio`,
     siteHeadline: `Cara - Gatsby Theme from @lekoarts`,
     siteUrl: `https://cara.lekoarts.de`,
     siteDescription: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
@@ -36,18 +36,6 @@ const config: GatsbyConfig = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#f6ad55`,
         display: `standalone`,
-        icons: [
-          {
-            src: `/android-chrome-192x192.png`,
-            sizes: `192x192`,
-            type: `image/png`,
-          },
-          {
-            src: `/android-chrome-512x512.png`,
-            sizes: `512x512`,
-            type: `image/png`,
-          },
-        ],
       },
     },
     // You can remove this plugin if you don't need it
